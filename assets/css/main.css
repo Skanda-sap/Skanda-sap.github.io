@@ -182,9 +182,13 @@ input, select, textarea {
 	p1 {
 		text-align: justify;
 		margin: 0 0 2rem 0;
-		font-size: 25px;
+		font-size: 20px;
 	}
-
+	p2 {
+		text-align: center;
+		margin: 0 0 2rem 0;
+		font-size: 20px	;
+	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -3796,7 +3800,9 @@ input, select, textarea {
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
-
+		#main > .post.custom-padding {
+			padding: 4rem 8rem 6rem 8rem ;
+		}
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
