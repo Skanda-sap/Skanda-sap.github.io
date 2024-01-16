@@ -2636,6 +2636,13 @@ input, select, textarea {
 			top: 3.5rem;
 			padding: 20px;			
 		}
+		.image.center1 {
+			float: center;
+			margin: 0 0 2rem 8rem;
+			position: relative;
+			top: -2rem;
+			padding: 20px;			
+		}
 
 		.image.fit {
 			display: block;
